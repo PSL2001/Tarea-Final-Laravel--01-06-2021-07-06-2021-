@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7759431e303e2d722a264a8a991a9e84",
+    "content-hash": "a70001a6a0306ac22de2a9be9cae471b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -855,6 +855,65 @@
                 "source": "https://github.com/guzzle/psr7/tree/1.8.2"
             },
             "time": "2021-04-26T09:17:50+00:00"
+        },
+        {
+            "name": "laravel-lang/lang",
+            "version": "10.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laravel-Lang/lang.git",
+                "reference": "60f34386a9223bbf40b179b54f9977d5e12391d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laravel-Lang/lang/zipball/60f34386a9223bbf40b179b54f9977d5e12391d4",
+                "reference": "60f34386a9223bbf40b179b54f9977d5e12391d4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "andrey-helldar/pretty-array": "^2.3",
+                "andrey-helldar/support": "^3.16.1",
+                "guzzlehttp/guzzle": "^7.3",
+                "laravel/breeze": "^1.2",
+                "laravel/fortify": "^1.7",
+                "laravel/jetstream": "^2.3",
+                "php": "^8.0",
+                "phpunit/phpunit": "^9.5",
+                "symfony/finder": "^5.2",
+                "symfony/var-dumper": "^5.2",
+                "vlucas/phpdotenv": "^5.3"
+            },
+            "suggest": {
+                "andrey-helldar/laravel-lang-publisher": "Easy installation and update of translation files for your project",
+                "arcanedev/laravel-lang": "Translations manager and checker for Laravel 5",
+                "overtrue/laravel-lang": "Command to add languages in your project"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laravel-Lang Team",
+                    "homepage": "https://github.com/Laravel-Lang"
+                }
+            ],
+            "description": "Languages for Laravel",
+            "keywords": [
+                "lang",
+                "languages",
+                "laravel",
+                "lpm"
+            ],
+            "support": {
+                "issues": "https://github.com/Laravel-Lang/lang/issues",
+                "source": "https://github.com/Laravel-Lang/lang"
+            },
+            "time": "2021-06-02T08:34:14+00:00"
         },
         {
             "name": "laravel/framework",
@@ -1722,6 +1781,85 @@
                 }
             ],
             "time": "2020-07-20T17:29:33+00:00"
+        },
+        {
+            "name": "protonemedia/laravel-form-components",
+            "version": "2.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/protonemedia/laravel-form-components.git",
+                "reference": "c0eb477bddd3b8cdad1a3d3b2995fdcb03237e52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/protonemedia/laravel-form-components/zipball/c0eb477bddd3b8cdad1a3d3b2995fdcb03237e52",
+                "reference": "c0eb477bddd3b8cdad1a3d3b2995fdcb03237e52",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.22.4 || ^8.0",
+                "php": "^7.4 || ^8.0",
+                "symfony/http-foundation": "^5.1.2"
+            },
+            "require-dev": {
+                "livewire/livewire": "^2.0",
+                "mockery/mockery": "^1.3.3",
+                "orchestra/testbench-browser-kit": "^5.1 || ^6.0",
+                "phpunit/phpunit": "^8.5 || ^9.0",
+                "spatie/laravel-translatable": "^4.4",
+                "symfony/dom-crawler": "^5.1.14"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ProtoneMedia\\LaravelFormComponents\\Support\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ProtoneMedia\\LaravelFormComponents\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal Baljet",
+                    "email": "pascal@protone.media",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Blade components to rapidly build forms with Tailwind CSS Custom Forms and Bootstrap 4.",
+            "homepage": "https://github.com/protonemedia/laravel-form-components",
+            "keywords": [
+                "Forms",
+                "bootstrap",
+                "bootstrap4",
+                "form",
+                "form-builder",
+                "form-components",
+                "laravel",
+                "laravel-form-builder",
+                "laravel-form-components",
+                "protonemedia",
+                "tailwind",
+                "tailwindcss"
+            ],
+            "support": {
+                "issues": "https://github.com/protonemedia/laravel-form-components/issues",
+                "source": "https://github.com/protonemedia/laravel-form-components/tree/2.5.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/pascalbaljet",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-02-15T15:52:42+00:00"
         },
         {
             "name": "psr/container",
