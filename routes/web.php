@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PerfilController;
+use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,4 @@ Route::get('/', function () {
 
 //Mis rutas
 Route::resource('perfils', PerfilController::class);
+Route::resource('usuarios', UsuarioController::class);

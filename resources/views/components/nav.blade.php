@@ -10,7 +10,7 @@
             <a class="nav-link active mx-2" aria-current="page" href="/"><i class="fas fa-home"></i> Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#"><i class="far fa-address-card"></i> Gestionar Usuarios</a>
+            <a class="nav-link mx-2" href="{{route('usuarios.index')}}"><i class="far fa-address-card"></i> Gestionar Usuarios</a>
           </li>
           <li class="nav-item">
               <a class="nav-link mx-2" href="{{route('perfils.index')}}"><i class="fas fa-book-reader"></i> Gestionar Perfiles</a>
